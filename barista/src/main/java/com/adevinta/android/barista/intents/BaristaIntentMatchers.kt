@@ -9,7 +9,6 @@ import android.graphics.Paint
 import android.net.Uri
 import android.provider.MediaStore
 import androidx.test.core.app.ApplicationProvider.getApplicationContext
-import androidx.test.espresso.core.internal.deps.guava.base.Preconditions.checkNotNull
 import com.adevinta.android.barista.internal.failurehandler.BaristaException
 import org.hamcrest.Description
 import org.hamcrest.Matcher

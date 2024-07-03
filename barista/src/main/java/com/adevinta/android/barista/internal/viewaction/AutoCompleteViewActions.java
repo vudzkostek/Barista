@@ -13,10 +13,10 @@ import javax.annotation.Nonnull;
 import org.hamcrest.Matcher;
 
 import static androidx.test.espresso.action.ViewActions.actionWithAssertions;
-import static androidx.test.espresso.core.internal.deps.guava.base.Preconditions.checkNotNull;
 import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static org.hamcrest.Matchers.allOf;
+import static kotlin.jvm.internal.Intrinsics.checkNotNull;
 
 public class AutoCompleteViewActions {
 
